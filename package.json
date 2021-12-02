@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js"
+  },
+  "author": "vanbao",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanbao1610/nodejs_blog_f8.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/vanbao1610/nodejs_blog_f8/issues"
+  },
+  "homepage": "https://github.com/vanbao1610/nodejs_blog_f8#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
