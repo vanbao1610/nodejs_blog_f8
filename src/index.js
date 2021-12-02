@@ -10,8 +10,8 @@ const port = 3000;
 app.use(morgan("tiny"));
 
 // Template engines
-app.engine("handlebars", handlebars.engine());
-app.set("view engine", "handlebars");
+app.engine("hbs", handlebars.engine({extname:".hbs"}));
+app.set("view engine", "hbs");
 app.set("views",path.join(__dirname ,"resources/views"));
 // app.set('views', './views');
 
